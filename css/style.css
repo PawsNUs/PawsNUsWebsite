@@ -1665,8 +1665,10 @@ h3 {
     position: absolute;
     right: 0;
     bottom: 0;
-    border-top: 15px solid #ffffff;
-    border-left: 15px solid #ffffff;
+    border-top: 15px solid
+ #ffffff;
+    border-left: 15px solid
+ #ffffff;
     top: auto;
     width: 50%;
     height: 60%;
@@ -6554,4 +6556,13 @@ h6 {
   font-size: 12px;
 }
 
+.activeTab {
+  color: #ff6600; /* Highlight color */
+  font-weight: bold;
+  text-decoration: underline; /* Underline the active tab */
+}
+
+.activeTab:hover {
+  text-decoration: none; /* Optional: Remove underline on hover */
+}
 /*# sourceMappingURL=style.css.map */
